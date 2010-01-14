@@ -1,3 +1,12 @@
 echo bash_profile
 
-alias pb="ssh pb.jhagman.members.mac.com"
+function pb {
+	user=$1
+
+	if [ -z $user ]; then
+		echo Please specify username
+	else
+		ssh -l $user pb.jhagman.members.mac.com
+	fi
+}
+

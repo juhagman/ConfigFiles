@@ -24,15 +24,14 @@ case "$cmd" in
 		create_link inputrc
 		create_link vimrc
 		create_link bash_profile
+		create_link hgrc
 		;;
 	'clean')
 		remove_link inputrc
 		remove_link vimrc
 		remove_link bash_profile
+		remove_link hgrc
 		;;
 	*)
 		echo "USAGE: setup install|clean"
 esac
-
-
-

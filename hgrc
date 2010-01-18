@@ -1,3 +1,7 @@
 [extensions]
 hgkeychain=
 hgext.fetch=
+
+[ui]
+username = Jussi Hagman <juhagman@gmail.com>
+verbose = True

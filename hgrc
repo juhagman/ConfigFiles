@@ -1,2 +1,3 @@
 [extensions]
 hgkeychain=
+hgext.fetch=

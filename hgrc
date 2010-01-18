@@ -5,3 +5,7 @@ hgext.fetch=
 [ui]
 username = Jussi Hagman <juhagman@gmail.com>
 verbose = True
+[merge-tools]
+filemerge.executable = /usr/bin/opendiff
+filemerge.args = $local $other -ancestor $base -merge $output
+
